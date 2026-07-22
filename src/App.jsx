@@ -101,10 +101,14 @@ useEffect(() => {
         </section>
       ) : (
         <section className="game-screen">
-          <h2 className="mission-title">
-            <span className="rocket">🚀</span>
-            Mission {mission}
-          </h2>
+  <div className="mission-header">
+    <span className="rocket">🚀</span>
+
+    <h2 className="mission-title">
+      Mission
+      <span className="mission-number">{mission}</span>
+    </h2>
+  </div>
 
           <p className="instruction">
             Find the letter
