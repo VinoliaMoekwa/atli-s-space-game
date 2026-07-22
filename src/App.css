@@ -212,9 +212,7 @@ body {
     flex-shrink: 0;
 }
 
-.mission-title {
-    transform: translateX(-40px);
-}
+
 
 .hero h1{
     font-size:4.5rem;
