@@ -1,0 +1,217 @@
+@import url('https://fonts.googleapis.com/css2?family=Pixelify+Sans:wght@400;500;600;700&display=swap');
+
+/* =========================
+   RESET
+========================= */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* =========================
+   GLOBAL
+========================= */
+
+body {
+  background: #050816;
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.app {
+  min-height: 100vh;
+}
+
+/* =========================
+   LANDING PAGE
+========================= */
+
+.landing-page {
+  min-height: 100vh;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  padding: 2rem;
+}
+
+.hero {
+  width: 100%;
+  max-width: 700px;
+  text-align: center;
+}
+
+.hero h1 {
+  font-family: "Pixelify Sans", sans-serif;
+  color: #66ff66;
+  font-size: 4rem;
+  margin-bottom: 2rem;
+}
+
+.rocket {
+  font-size: 5rem;
+  margin-bottom: 2rem;
+}
+
+.subtitle {
+  font-size: 1.5rem;
+  margin-bottom: 1.5rem;
+}
+
+.description {
+  font-size: 1.1rem;
+  margin-bottom: 3rem;
+}
+
+.start-btn {
+  background: #f7c948;
+  color: #111;
+
+  border: none;
+  border-radius: 16px;
+
+  padding: 1.2rem 3rem;
+
+  font-size: 1.3rem;
+  font-weight: bold;
+  font-family: Arial, Helvetica, sans-serif;
+
+  cursor: pointer;
+  transition: .25s ease;
+}
+
+.start-btn:hover {
+  transform: translateY(-4px);
+}
+
+/* =========================
+   GAME SCREEN
+========================= */
+
+.game-screen {
+  width: 60%;
+  margin: 40px auto;
+  text-align: center;
+}
+
+/* Heading only uses Pixelify */
+
+.mission-title {
+  font-family: "Pixelify Sans", sans-serif;
+  font-size: 3rem;
+  color: #66ff66;
+
+  margin-bottom: .5rem;
+}
+
+/* Rocket beside Mission */
+
+.mission-title .rocket {
+  font-size: 2.2rem;
+  margin-right: .5rem;
+}
+
+/* Normal readable font */
+
+.instruction {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+}
+
+/* Educational letters stay normal */
+
+.target-letter {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 5rem;
+  font-weight: bold;
+
+  margin-bottom: 2rem;
+}
+
+/* Answer grid */
+
+.answer-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 1.25rem;
+}
+
+/* Buttons */
+
+.letter-btn {
+  height: 90px;
+
+  background: #232c45;
+
+  border: 3px solid #66ff66;
+  border-radius: 20px;
+
+  color: white;
+
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 2.5rem;
+  font-weight: bold;
+
+  cursor: pointer;
+
+  transition: .2s ease;
+}
+
+.letter-btn:hover {
+  transform: scale(1.03);
+}
+
+.mission-title {
+    margin-bottom: 60px;
+}
+
+.instruction {
+    margin-bottom: 60px;
+}
+
+.target-letter {
+    margin-bottom: 60px;
+}
+
+.hero h1 {
+    margin-bottom: 60px;
+}
+
+.subtitle {
+    margin-bottom: 60px;
+}
+
+.description {
+    margin-bottom: 60px;
+}
+.mission-title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 16px;
+
+    font-family: "Pixelify Sans", sans-serif;
+    font-size: 3rem;
+    color: #66ff66;
+
+    margin-bottom: 60px;
+}
+
+.mission-title .rocket {
+    width: 90px;
+    font-size: 6rem;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    flex-shrink: 0;
+}
+
+.mission-title {
+    transform: translateX(-40px);
+}
